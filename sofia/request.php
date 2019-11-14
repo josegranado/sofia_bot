@@ -41,13 +41,13 @@
 		case '/ayuda':
 		$responseHelp = '🙋🏻‍♂️🎉LISTA DE COMANDOS🧐
 
-/referidos Solicitas tu link de referido de referidos.consciencia.red';
+/enlace Solicitas tu link de referido de referidos.consciencia.red';
 		sendMessage($chatId, $responseHelp);
 		break;
 		case '/ayuda@Sofiabot_bot':
 		$responseHelp = '🙋🏻‍♂️🎉LISTA DE COMANDOS🧐
 
-/referidos Solicitas tu link de referido de referidos.consciencia.red';
+/enlace Solicitas tu link de referido de referidos.consciencia.red';
 		sendMessage($chatId, $responseHelp);
 		break;
 		case '/referidos':
@@ -385,6 +385,41 @@ www.consciencia.red
 
 Síguenos en nuestro twitter oficial @conscienciared:
 http://bit.ly/2Ng5Mxx';
+					}
+					if ($chatId === -1001318169578)
+					{
+						$response = 'Bienvenido/a '.$newParticipant["first_name"].' '. $newParticipant["last_name"].' a '.$update["message"]["chat"]["title"].'!          
+
+Soy Pablo Gargiulo y cómo estás en mi agenda de contactos Telegram me avisa que te has registrado 👏👏💪          
+
+Un gusto que te hayas sumado a esta red súper potente !           
+
+Te invito a sumarte a la Red de Consciencia de esta Plataforma con estos grupos y canal:        
+
+Canal Consciencia:      
+👉 https://t.me/consciencia            
+
+Red Consciencia:     
+👉 t.me/redconsciencia         
+
+Taller abundancia: 
+👉 https://t.me/tallerdeabundancia  
+
+Taller Codigos sagrados: 👉 https://t.me/joinchat/JC6o5g2RixINpuLL3V1kZw  
+
+GlobalWork     
+👉 t.me/globalmeetwork          
+
+Startup 💡 idea  
+👉 https://t.me/joinchat/JC6o5hPYuKn99ZS-SFW7PQ    
+
+Tao Te King:    
+👉 https://t.me/joinchat/JC6o5kjzXKVQUOOo_y1PRw      
+
+👉 Meditacion masiva:  https://t.me/meditacionmasiva     
+
+👉 Libros 📚 red consciencia:
+https://t.me/joinchat/JC6o5k6Rq-pF0rTZhr-Z1A';
 					}
 					sendMessage($chatId, $response);
 					}
