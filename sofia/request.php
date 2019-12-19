@@ -18,45 +18,345 @@
 	$message = substr(strstr($message," "), 1);
 	switch($command)
 	{
+		case '/registrostartup':
+		$responseSU = 'Aquí dos formularios para completar para organizarnos con los próximos pasos para llevarla a la luz
+
+Formulario 1
+https://bit.ly/2Mo0r6z
+
+Formulario 2
+https://bit.ly/346dyzg';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+
+		{
+			sendMessage($chatId, $responseSU);	
+		}	
+		break;
+		case '/registrostartup@Sofiabot_bot':
+		$responseSU = 'Aquí dos formularios para completar para organizarnos con los próximos pasos para llevarla a la luz
+
+Formulario 1
+https://bit.ly/2Mo0r6z
+
+Formulario 2
+https://bit.ly/346dyzg';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+
+		{
+			sendMessage($chatId, $responseSU);	
+		}
+		break;
+		case '/slackemprendedores':
+		$responseSE = 'Si tienes la app Slack Sumate a los distintos verticales para intercambiar información específica de tu negocio:
+
+https://bit.ly/37jkmfJ';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+{
+		sendMessage($chatId, $responseSE);
+		}
+		break;
+		case '/slackemprendedores@Sofiabot_bot':
+		$responseSE = 'Si tienes la app Slack Sumate a los distintos verticales para intercambiar información específica de tu negocio:
+
+https://bit.ly/37jkmfJ';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+{
+		sendMessage($chatId, $responseSE);
+	}
+		break;
+		case '/planillaemprendedores':
+		$responsePE = 'Planilla registro emprendedores ✍️
+https://bit.ly/2kAwp4J
+
+Y aquí tienes la vista de los registros de emprendedores
+https://goo.gl/4m4qJL';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+
+		{
+		sendMessage($chatId, $responsePE);
+	}
+		break;
+		case '/planillaemprendedores@Sofiabot_bot':
+		$responsePE = 'Planilla registro emprendedores ✍️
+https://bit.ly/2kAwp4J
+
+Y aquí tienes la vista de los registros de emprendedores
+https://goo.gl/4m4qJL';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+
+		{
+			sendMessage($chatId, $responsePE);
+		}
+		break;
+		case '/grupos':
+		$responseGrupos = '🤓 Red de lectores  Biblioteca📚
+👉 https://bit.ly/2NO8GcV
+
+🧘‍♀️ Canal Meditación masiva
+https://t.me/meditacionmasiva
+
+🧘🏻‍♂️ Meditación masiva grupo
+https://bit.ly/2r4drGc
+
+🙏 Espiritualidad
+👉 https://bit.ly/2KrSTyn
+
+🌏 Astrología
+👉 https://bit.ly/2OikZ06
+
+👁‍🗨 Red consciencia plena
+👉 t.me/redconsciencia
+
+🌸 Canal Consciencia:
+👉 https://t.me/consciencia
+
+🧡Talleres Consciencia 
+👉 t.me/tallerconsciencia
+
+☯️ Tao Te King (silencio)
+👉 https://bit.ly/37cIHU7
+
+☯️ Tao Te King (chat)
+👉 https://bit.ly/2Oh6ppO
+
+🔯 Academia Consciencia
+👉 https://bit.ly/354UqCn
+
+🍀 Red Saludable
+👉 t.me/redsalud
+
+🙏 Afirmaciones
+👉 https://t.me/afirmacionesdiarias
+
+🌸 Taller abundancia (canal)
+👉 https://t.me/tallerdeabundancia
+
+🌼 Taller abundancia (grupo)
+👉 t.me/tallerabundancia
+
+🚀 Misión Planeta 🌏
+👉 https://bit.ly/2rOMPtp
+
+🐬 Mision Delfínica
+👉 https://bit.ly/2qiYPCT
+
+🈂️ Codigos Sagrados
+👉 https://bit.ly/33PVPfP
+
+⏰ design⚡️sprint 
+👉 https://bit.ly/2OjC3mp
+
+👩‍👧‍👦 Empleos en línea
+👉 https://bit.ly/33RiOqT
+
+🖥 Trabaja en internet
+👉 t.me/globalmeetwork
+
+⚙️ Emprendimientos online
+👉 https://bit.ly/2Kr3JEM
+
+🤝 Red de negocios
+📝 Regístrate al ingresar
+👉 t.me/rednegocios
+
+🔮 Tarot
+👉 https://bit.ly/2rGJlcf
+
+🌏 Astrologia
+👉 https://bit.ly/2OikZ06
+
+♓️ Tantra Espíritu Sexo
+👉 t.me/sexotantrico
+
+🚀 Networking
+👉 t.me/networkingemprendedores
+
+💡 Startup idea
+👉 https://bit.ly/2NP3uWk
+
+📡 Plataforma GlobalWork
+👉 t.me/globalmeetwork
+
+♻️ Red sustentable
+👉 t.me/redsustentable';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+		{
+		sendMessage($chatId, $responseGrupos);
+	}
+		break;
+		case '/grupos@Sofiabot_bot':
+$responseGrupos = '🤓 Red de lectores  Biblioteca📚
+👉 https://bit.ly/2NO8GcV
+
+🧘‍♀️ Canal Meditación masiva
+https://t.me/meditacionmasiva
+
+🧘🏻‍♂️ Meditación masiva grupo
+https://bit.ly/2r4drGc
+
+🙏 Espiritualidad
+👉 https://bit.ly/2KrSTyn
+
+🌏 Astrología
+👉 https://bit.ly/2OikZ06
+
+👁‍🗨 Red consciencia plena
+👉 t.me/redconsciencia
+
+🌸 Canal Consciencia:
+👉 https://t.me/consciencia
+
+🧡Talleres Consciencia 
+👉 t.me/tallerconsciencia
+
+☯️ Tao Te King (silencio)
+👉 https://bit.ly/37cIHU7
+
+☯️ Tao Te King (chat)
+👉 https://bit.ly/2Oh6ppO
+
+🔯 Academia Consciencia
+👉 https://bit.ly/354UqCn
+
+🍀 Red Saludable
+👉 t.me/redsalud
+
+🙏 Afirmaciones
+👉 https://t.me/afirmacionesdiarias
+
+🌸 Taller abundancia (canal)
+👉 https://t.me/tallerdeabundancia
+
+🌼 Taller abundancia (grupo)
+👉 t.me/tallerabundancia
+
+🚀 Misión Planeta 🌏
+👉 https://bit.ly/2rOMPtp
+
+🐬 Mision Delfínica
+👉 https://bit.ly/2qiYPCT
+
+🈂️ Codigos Sagrados
+👉 https://bit.ly/33PVPfP
+
+⏰ design⚡️sprint 
+👉 https://bit.ly/2OjC3mp
+
+👩‍👧‍👦 Empleos en línea
+👉 https://bit.ly/33RiOqT
+
+🖥 Trabaja en internet
+👉 t.me/globalmeetwork
+
+⚙️ Emprendimientos online
+👉 https://bit.ly/2Kr3JEM
+
+🤝 Red de negocios
+📝 Regístrate al ingresar
+👉 t.me/rednegocios
+
+🔮 Tarot
+👉 https://bit.ly/2rGJlcf
+
+🌏 Astrologia
+👉 https://bit.ly/2OikZ06
+
+♓️ Tantra Espíritu Sexo
+👉 t.me/sexotantrico
+
+🚀 Networking
+👉 t.me/networkingemprendedores
+
+💡 Startup idea
+👉 https://bit.ly/2NP3uWk
+
+📡 Plataforma GlobalWork
+👉 t.me/globalmeetwork
+
+♻️ Red sustentable
+👉 t.me/redsustentable';	
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+
+		{
+			sendMessage($chatId, $responseGrupos);	
+		}
+		break;
+		case '/redessociales':
+		$responseRS = 'Página web oficial:
+http://bit.ly/33WArWq
+
+Twitter oficial:
+http://bit.ly/2Ng5Mxx
+
+Instagram oficial:
+http://bit.ly/357C0kz
+		';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+
+		{
+			sendMessage($chatId, $responseRS);
+		}
+		break;
+		case '/redessociales@Sofiabot_bot':
+		$responseRS = 'Página web oficial:
+http://bit.ly/33WArWq
+		
+Twitter oficial:
+http://bit.ly/2Ng5Mxx
+
+Instagram oficial:
+http://bit.ly/357C0kz
+		';
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+{
+		sendMessage($chatId, $responseRS);
+		}
+		break;
 		case '/enlace':
 		$responseEnlace = "El enlace de referido disponible es el siguiente: 
 
 		https://referidos.consciencia.red/invite/XWvoyX6k7l4M";
+		if($update["message"]["chat"]["type"] == "private"){
 		sendMessage($chatId, $responseEnlace);
+	}
 		break;
 		case '/enlace@Sofiabot_bot':
 		$responseEnlace = "El enlace de referido disponible es el siguiente: 
 		
 		https://referidos.consciencia.red/invite/q4PbL9ALwA5v";
-		sendMessage($chatId, $responseEnlace);
-		break;
-		case '/setenlace':
-		$responseSetEnlace = "El enlace de referido disponible es el siguiente: ".$arr[2];
-		sendMessage($chatId, $responseSetEnlace);
-		break;
-		case '/setenlace@Sofiabot_bot':
-		$responseSetEnlace = "El enlace de referido disponible es el siguiente: ".$arr[2];
-		sendMessage($chatId, $responseSetEnlace);
+		if(($update["message"]["chat"]["type"] == "private")|| ($chatId == -1001359045883))
+		{sendMessage($chatId, $responseEnlace);}
 		break;
 		case '/ayuda':
-		$responseHelp = '🙋🏻‍♂️🎉LISTA DE COMANDOS🧐
+		$responseHelp = '
+¡HOLA! puedes consultarme por privado y te ayudaré! 😃
 
-/enlace Solicitas tu link de referido de referidos.consciencia.red';
+🙋🏻‍♂️🎉LISTA DE COMANDOS🧐
+
+/enlace Solicitas tu link de referido de referidos.consciencia.red
+/redesociales Solicitas las redes sociales del proyecto
+/solicitarcodigo Solicitas tu codigo de acceso para GlobalWork
+/grupos Solicitas todos los links de los grupos del proyecto
+/slackemprendedores - Solicitas el slack del grupo Networking Emprendedores
+/planillaemprendedores - Solicitas la planilla de inscripción del grupo Networking Emprendedores
+/registrostartup - Solicitas los formularios de inscripción para el grupo Startup Ideas
+';
 		sendMessage($chatId, $responseHelp);
 		break;
 		case '/ayuda@Sofiabot_bot':
-		$responseHelp = '🙋🏻‍♂️🎉LISTA DE COMANDOS🧐
+		$responseHelp2 = '
+¡HOLA! puedes consultarme por privado y te ayudaré! 😃
 
-/enlace Solicitas tu link de referido de referidos.consciencia.red';
-		sendMessage($chatId, $responseHelp);
-		break;
-		case '/referidos':
-		$responseRefer = 'Solicitaste link de referido';
-		sendMessage($chatId, $responseRefer);
-		break;
-		case '/referidos@Sofiabot_bot':
-		$responseRefer = 'Solicitaste link de referido';
-		sendMessage($chatId, $responseRefer);
+🙋🏻‍♂️🎉LISTA DE COMANDOS🧐
+
+/enlace Solicitas tu link de referido de referidos.consciencia.red
+/redesociales Solicitas las redes sociales del proyecto
+/solicitarcodigo Solicitas tu codigo de acceso para GlobalWork
+/grupos Solicitas todos los links de los grupos del proyecto
+/slackemprendedores - Solicitas el slack del grupo Networking Emprendedores
+/planillaemprendedores - Solicitas la planilla de inscripción del grupo Networking Emprendedores
+/registrostartup - Solicitas los formularios de inscripción para el grupo Startup Ideas';
+		sendMessage($chatId, $responseHelp2);
 		break;
 		case '/solicitarcodigo':
 		$sCode = solicitarCodigo($chatId, $update["message"]["from"]["id"]);
@@ -69,7 +369,9 @@
 		{
 			$newCode = generateCode($update["message"]["from"]["first_name"], $update["message"]["from"]["last_name"]);
 			$responseCode = '¡Aquí tienes tu código de acceso de GlobalWork!. Tu nuevo código es '.$newCode;
+			if($update["message"]["chat"]["type"] == "private"){
 			sendMessage($chatId, $responseCode);
+			}
 			$queryChatIdBd = "SELECT * FROM chat WHERE telegram_id = ".$chatId."";
 			$result = $conex->query($queryChatIdBd);
 			$chatBd = $result->fetch_assoc();
@@ -88,7 +390,9 @@
 		{
 			$newCode = generateCode($update["message"]["from"]["first_name"], $update["message"]["from"]["last_name"]);
 			$responseCode = '¡Aquí tienes tu código de acceso de GlobalWork!. Tu nuevo código es '.$newCode;
+			if($update["message"]["chat"]["type"] == "private"){
 			sendMessage($chatId, $responseCode);
+		}
 			$queryChatIdBd = "SELECT * FROM chat WHERE telegram_id = ".$chatId."";
 			$result = $conex->query($queryChatIdBd);
 			$chatBd = $result->fetch_assoc();
@@ -146,8 +450,9 @@ https://consciencia.red/grupos/global-work/
 Una vez completado los pasos ¡FELICIDADES FORMAS PARTE DE ESTA GRAN COMUNIDAD! 
 👏👏🙋🏻‍♂️🎉
 
-Síguenos en nuestro twitter oficial @conscienciared:
-http://bit.ly/2Ng5Mxx';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
 					}
 					if ($chatId === -1001348007259) // NETWORKING EMPRENDEDORES
 					{
@@ -155,36 +460,10 @@ http://bit.ly/2Ng5Mxx';
 '.$newParticipant["first_name"].' '.$newParticipant["last_name"].'
 
 Un gusto que te hayas sumado a la red! Aquí intercambiamos contactos, eventos / novedades / cursos / talleres e información de utilidad para potenciar nuestros emprendimientos. 
-Puedes consultar y también registrarte en la planilla para conocer y darte a conocer en el grupo! 
-Aquí te registras: 
-Planilla registro emprendedores ✍️
-https://bit.ly/2kAwp4J
 
-Y aquí tienes la vista de los registros de emprendedores
-https://goo.gl/4m4qJL
-Contamos con una amplia biblioteca virtual con libros temáticos para emprendedores 
-📚 Libros para emprendedores
-📖 biblioteca virtual📖
-https://bit.ly/2ZtbLXs
-
-Si tienes la app Slack Sumate a los distintos verticales para intercambiar información específica de tu negocio. 
-
-Slack con canales de discusión:👇
-https://bit.ly/2QyL7EE
-
-Si tienes una idea o proyecto puedes sumarte a Startup 💡 ideas. Aquí puedes desarrollarla y también conseguir fondos con inversores. 
-https://t.me/joinchat/JC6o5hPYuKn99ZS-SFW7PQ
-
-Comparte este enlace al grupo así la comUnidad sigue creciendo Conra aporte de todos ! 
-Enlace a este grupo en Telegram: 👇
-https://bit.ly/2knGIZK
-
-Te deseamos que hagas muchos contactos y sobre todo amigos! 
-
-Que tengas una excelente jornada.
-
-Síguenos en nuestro twitter oficial @conscienciared:
-http://bit.ly/2Ng5Mxx';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
 					}
 					if ($chatId === -1001244990068) //STARTUPIDEAS
 					{
@@ -194,47 +473,10 @@ http://bit.ly/2Ng5Mxx';
 Un gusto que te hayas sumado a startups ideas de la comunidad emprendedora! 
 
 Si tienes una idea de emprendimiento, una startup o un proyecto en marcha que deseas desarrollar o potenciar, este es el lugar! 
-Aquí dos formularios para completar para organizarnos con los próximos pasos para llevarla a la luz
 
-Formulario 1
-https://bit.ly/2Mo0r6z
-
-Formulario 2
-https://bit.ly/346dyzg
-
-
-Puedes consultar y también registrarte en la planilla para conocer y darte a conocer en el grupo! 
-
-Contamos con una amplia biblioteca virtual con libros temáticos: 
-
-📚 Libros para emprendedores:
-https://bit.ly/2ZtbLXs
-
-Si tienes la app Slack Sumate a los distintos verticales para intercambiar información específica de tu negocio. 
-
-Slack con canales de información de tu negocio / rubro👇
-
-https://bit.ly/2QyL7EE
-
-Únete también a nuestro grupo de Networking de emprendedores 
-Aquí el enlace:
-https://bit.ly/2knGIZK
-
-Comparte este enlace al grupo si tienes socio o amigo que necesite potenciar sus ideas, así la comUnidad sigue creciendo Conra aporte de todos ! 
-
-Enlace a networking en Telegram: 👇
-
-https://t.me/joinchat/JC6o5hPYuKn99ZS-SFW7PQ
-
-Que tengas una excelente jornada.
-
-Síguenos en nuestro twitter oficial 
-@conscienciared:
-
-http://bit.ly/2Ng5Mxx
-
-Instagram 
-@Consciencia.red';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
 					}
 					if ($chatId === -1001349050525 )//RED CONSCIENCIA PLENA
 					{
@@ -242,56 +484,9 @@ Instagram
 
 Soy Sofía un “bot”  que colaboro en el grupo. 
 
-Un gusto que nos conectemos aquí. 
-
-Te invito a sumarte a la Red de Consciencia de esta Plataforma con estos grupos y canal:    
-
-Canal Consciencia:    
-👉 https://t.me/consciencia        
-
-Red Consciencia:   
-👉 t.me/redconsciencia     
-
-Afirmaciones diarias:
-👉 https://t.me/afirmacionesdiarias
-
-Espiritualidad:
-👉 https://t.me/joinchat/JC6o5hRLmZjLsHBFW60hgA
-
-Códigos sagrados:
-👉 https://t.me/joinchat/JC6o5g2RixINpuLL3V1kZw
-
-GlobalWork   
-👉 t.me/globalmeetwork
-
-Networking Emorendedores 
-👉 t.me/networkingemprendedores
-
-Startup 💡 idea
-👉 https://t.me/joinchat/JC6o5hPYuKn99ZS-SFW7PQ
-
-Futuros diamantes:
-👉 t.me/futurodiamante
-
-Tao Te King:  
-👉 https://t.me/joinchat/JC6o5kjzXKVQUOOo_y1PRw  
-
-Meditacion masiva: 
-👉 https://t.me/meditacionmasiva 
-
-Fractales y mandalas 
-Economía solidaria:
-👉 https://t.me/joinchat/JC6o5gubh2hz_Ttv2EOeYA
-
-Que tengas una excelente jornada!
-
-
-Síguenos en nuestro twitter oficial aquí:
-
-👉 http://bit.ly/2Ng5Mxx
-
-Instagram:
-👉 @Consciencia.red';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
 					}
 					if ($chatId === -1001229232719 ) //ASTROLOGIA
 					{
@@ -308,16 +503,8 @@ El Sol hace su entrada en las distintas constelaciones iniciando una nueva rueda
 
 El inicio y Cambio forma parte del cosmos. Acompañaremos la energía de los astros y su influencia en nuestro día a día  🌍🌅👁
 
-Si deseas obtener tu carta ingresa al grupo Astrologia en nuestra comUnidad y consulta con los administradores! Puedes obtenerla! 
-www.consciencia.red 
-
-Si deseas obtener tu carta ingresa al grupo Astrologia en nuestra comUnidad y consulta con los administradores! Puedes obtenerla! 
-
-Comparte este enlace e ingresa a un amigo a este grupo para la evolución según los astros en Telegram
-https://bit.ly/2mLNNnC
-
-Síguenos en nuestro twitter oficial @conscienciared:
-http://bit.ly/2Ng5Mxx';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.';
 					}
 					if ($chatId === -1001107790440 ) //FUTUROS DIAMANTES
 					{
@@ -326,7 +513,8 @@ http://bit.ly/2Ng5Mxx';
 '.$newParticipant['first_name'].' '.$newParticipant['last_name'].'
 
 En este grupo organizaremos la red de comunicación entre líderes comunicadores globales. 
-
+Solicitame ayuda escribiendo lo siguiente:
+"/ayuda"
 Solicita tu enlace maestro para establecer tu red de referidos. 
 Escribiendo la palabra /enlace
 
@@ -334,13 +522,9 @@ Capitaliza tus contactos. Configura tu red para recibir bonificaciones y compens
 
  “Capitaliza tu poder influencia”.
 
-Convoca con tu enlace y suma referidos a tu red. 
-Asciende al máximo nivel de ganancias en la red
-
-t.me/futurodiamante
-
-Síguenos en nuestro twitter oficial @conscienciared:
-http://bit.ly/2Ng5Mxx';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
 					}
 					if ($chatId === -1001223908517) //TAO
 					{
@@ -353,16 +537,8 @@ Meditación estudio del TAO TE KING.
 Recibe diariamente estrofas de los sucesivos capítulos en canal TAO :
 https://bit.ly/2WFfY5N
 
-Comparte este enlace con familiares y amigos para que reciban los mensajes de sabiduría del Tao. 
-
-Ayúdanos a activar con nosotros la red aquí:
-t.me/redconsciencia 
-
-Únete a la comunidad consciencia en:
-www.consciencia.red
-
-Síguenos en nuestro twitter oficial @conscienciared:
-http://bit.ly/2Ng5Mxx';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.';
 					}
 					if ($chatId === -1001179313572) //ESPIRITUALIDAD
 					{
@@ -372,54 +548,246 @@ http://bit.ly/2Ng5Mxx';
 
 Comparte tus reflexiones en este grupo y ayúdanos a activar el cambio hacia una #NuevaHumanidad 
 
-
-Comparte este enlace con familiares y amigos 
-
-https://t.me/joinchat/JC6o5hRLmZjLsHBFW60hgA
-
-Ayúdanos a activar con nosotros la red de consciencia aquí:
-t.me/redconsciencia 
-
-Únete a la comunidad consciencia en:
-www.consciencia.red
-
-Síguenos en nuestro twitter oficial @conscienciared:
-http://bit.ly/2Ng5Mxx';
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.';
 					}
-					if ($chatId === -1001318169578)
+					if ($chatId === -1001318169578) //LIBROS
 					{
-						$response = 'Bienvenido/a '.$newParticipant["first_name"].' '. $newParticipant["last_name"].' a '.$update["message"]["chat"]["title"].'!          
+						$response = '🎉 Bienvenido/a '.$newParticipant['first_name'].' '. $newParticipant['last_name'].' a '.$update['message']['chat']['title'].'!          
 
-Soy Pablo Gargiulo y cómo estás en mi agenda de contactos Telegram me avisa que te has registrado 👏👏💪          
+Aquí compartiremos libros/ pdf audiolibros de todas las temáticas y también podremos comentarlos!     
 
-Un gusto que te hayas sumado a esta red súper potente !           
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.';
+					}
+					if($chatId === -1001173745292) //RED DE NEGOCIOS
+					{
+						$response = 'Bienvenido a'.$update['message']['chat']['title'].' '.$newParticipant['first_name'].' '.$newParticipant['last_name'].'
 
-Te invito a sumarte a la Red de Consciencia de esta Plataforma con estos grupos y canal:        
+Aquí te enterarás de los negocios y oportunidades de la actualidad. 
 
-Canal Consciencia:      
-👉 https://t.me/consciencia            
+Comparte y propuesta de negocios aquí en el grupo
 
-Red Consciencia:     
-👉 t.me/redconsciencia         
 
-Taller abundancia: 
-👉 https://t.me/tallerdeabundancia  
+Si lo deseas puedes 
+ingresar a la RED del Sistema, completando tu registro,  tus áreas de interés, obtendrás  tu enlace propio para invitar a tu red y comprar/ vender en las plataformas del sistema referidos. 
 
-Taller Codigos sagrados: 👉 https://t.me/joinchat/JC6o5g2RixINpuLL3V1kZw  
+https://referidos.consciencia.red/invite/q4PbL9ALwA5v
 
-GlobalWork     
-👉 t.me/globalmeetwork          
 
-Startup 💡 idea  
-👉 https://t.me/joinchat/JC6o5hPYuKn99ZS-SFW7PQ    
+Una vez completado tu registro en Red de Negocios copia y guarda tu enlace personal para convocar e invitar. 
 
-Tao Te King:    
-👉 https://t.me/joinchat/JC6o5kjzXKVQUOOo_y1PRw      
+Recibirás información de negocios e inversiones en las áreas de: 
 
-👉 Meditacion masiva:  https://t.me/meditacionmasiva     
+👉 Plataformas de crowfunding 
 
-👉 Libros 📚 red consciencia:
-https://t.me/joinchat/JC6o5k6Rq-pF0rTZhr-Z1A';
+👉 Criptomonedas 
+
+👉 Inversion en startups innovadoras
+
+👉 Franquicias de mkt y publicidad
+
+👉 Franquicias en sistema de viajes y turismo. 
+
+👉 Plataformas educativas y escuelas de negocios. 
+
+👉 Marketplaces / venta 
+
+🙋🏻‍♂️ Éxitos en tus negocios!
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
+					}
+					if ($chatId === -1001321670076)//ACADEMIA CONSCIENCIA PLENA
+					{
+						$response = 'Bienvenido al espacio de la '.$udpate['message']['chat']['title'].'
+
+'.$newParticipant['first_name'].' '.$newParticipant['last_name'].'
+
+🎉 Nos alegramos que estés aquí unido a nuestra comUnidad de la #Redconscienciaplena
+
+Aquí nuestro propósito es la 🌀 evolución de nuestras consciencias y para ello hemos creado la Academia. Aquí podremos estudiar / enseñar / compartir / guiar y ser guiados en todos los caminos posibles que nos llevan hacia la consciencia plena. 
+
+Si deseas brindar capacitaciones puedes hacerlo y la Academia te ayudará a organizar tu curso/ taller / dinámica y también con un sistema de referidos ayudará a la difusión en la red. 
+
+Comparto aquí una guía básica con lo necesario para subir tu curso/taller a nuestra Plataforma. 
+
+https://bit.ly/2OlFAAW
+
+
+🙋‍♀️ Excelente jornada 🎶
+El equipo de la Academia
+
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
+					}
+					if ($chatId == -1001324715078) //RED SALUdABLE
+					{
+						$response = '🍀 Bienvenid@ a '.$update['message']['chat']['title'].'
+
+'.$newParticipant['first_name'].' '.$newParticipant['last_name'].'
+
+🎉 Felicitaciones por la decisión de sumarte al equipo! 
+
+Aquí estamos con el propósito de mejorar nuestra salud, la de nuestros seres más queridos y la del planeta 🌏 
+
+Compartiremos información, recetas, tips, buenas prácticas y todo lo que mejore nuestra salud y la de tod@s para una vida saludable y consciente! 
+
+Contamos con un flamante marketplace con alimentación consciente, productos para el hogar 🏡 vestimenta y regalos 🎁 ecofriendly. 
+
+Contamos contigo para sumarte al equipo de embajadores  saludables ! 
+
+Visita nuestro 🍀 EcoMarket y abre tu cuenta para comenzar ya! 
+
+👉 www.consciencia.red/ecomarket 
+
+Si necesitas ayuda no dudes en consultarme:
+Solo escribe "/ayuda" y yo te ayudaré.
+';
+					}
+					if ($chatId === -1001359045883) //NUEVO GRUPO DE CONSCINENCIA
+					{
+						$response = '🙋🏻‍♂️ Bienvenid@ 😊💜 '.$newParticipant['first_name'].' '.$newParticipant['last_name'].'
+
+¡Una alegría que estés aquí y  felicitaciones 🎉 por este paso en tu camino de 🌀 Evolución en Red de Consciencia !
+
+Este es el portal de ingreso y acceso a los enlaces a los distintos nodos para tu evolución. Ingresa al que desees en el momento que desees y recorre los espacio según lo sientas. 
+
+Cada espacio es un centro evolutivo donde te reencontrarás con nuevos seres de los cuales aprenderás algo . 
+
+Podrás viajar hacia otros nodos cuando quieras y también enterarte de los nuevos espacios que se van creando, solicitando ayuda a Sofía, nuestra ayudante virtual que nos indica lo que necesitemos para guiarnos en nuestro camino. 
+
+Comparto aquí los enlaces, al ingresar si lo deseas puedes presentarte o consultar con ayuda para los próximos pasos. 
+
+Te deseo un feliz viaje 💞
+
+<<<<<<<<>>>>>>>>>
+
+👁‍🗨 Conexión•nodos•
+👉 https://bit.ly/2OjkGU4i 
+
+🤓 Red de lectores 
+👉 https://bit.ly/2NO8GcV
+
+🏛 Cartel Cultural
+👉 https://t.me/carteleracultural
+
+🧘‍♀️ Canal Meditación masiva
+https://t.me/meditacionmasiva
+
+🧘🏻‍♂️ Meditación masiva grupo
+https://bit.ly/2r4drGc
+
+🙏 Espiritualidad
+👉 https://bit.ly/2KrSTynooi
+
+🙏 Líderes espirituales 
+https://bit.ly/2XyZWea
+
+💭 Mensajes Osho
+👉 t.me/mensajesosho
+
+🌏 Astrología
+👉 https://bit.ly/2OikZ06
+
+👁‍🗨 Red consciencia plena
+👉 t.me/redconsciencia
+
+🌸 Canal Consciencia:
+👉 https://t.me/consciencia
+
+🧡Talleres Consciencia 
+👉 t.me/tallerconsciencia
+
+☯️ Tao Te King (silencio)
+👉 https://bit.ly/37cIHU7
+
+☯️ Tao Te King (chat)
+👉 https://bit.ly/2Oh6ppO
+
+🔯 Academia Consciencia
+👉 https://bit.ly/354UqCn
+
+🍀 Red Saludable
+👉 t.me/redsalud
+
+🙏 Afirmaciones
+👉 https://t.me/afirmacionesdiarias
+
+🌸 Taller abundancia (canal)
+👉 https://t.me/tallerdeabundancia
+
+🌼 Taller abundancia (grupo)
+👉 t.me/tallerabundancia
+
+🚀 Misión Planeta 🌏
+👉 https://bit.ly/2rOMPtp
+
+🐬 Mision Delfínica
+👉 https://bit.ly/2qiYPCT
+
+🈂️ Codigos Sagrados
+👉 https://bit.ly/33PVPfP
+
+⏰ design⚡️sprint 
+👉 https://bit.ly/2OjC3mp
+
+👨‍👩‍👧‍👦 Economía del bien comun 
+https://bit.ly/33ZTT4u
+
+🔑 Rondas de Inversion 
+👉 https://bit.ly/33YnyLF
+
+👩‍👧‍👦 Empleos en línea
+👉 https://bit.ly/33RiOqT
+
+🖥 Trabaja en internet
+👉 t.me/globalmeetwork
+
+⚙️ Emprendimientos online
+👉 https://bit.ly/2Kr3JEM
+
+🤝 Red de negocios
+📝 Regístrate al ingresar
+👉 t.me/rednegocios
+
+🔮 Tarot
+👉 https://bit.ly/2rGJlcf
+
+🌏 Astrologia
+👉 https://bit.ly/2OikZ06
+
+✨ Reiki angelical 
+👉 https://bit.ly/2rqTpWD
+
+♓️ Tantra Espíritu Sexo
+👉 t.me/sexotantrico
+
+🚀 Networking
+👉 t.me/networkingemprendedores
+
+💡 Startup idea
+👉 https://bit.ly/2NP3uWk
+
+📡 Plataforma GlobalWork
+👉 t.me/globalmeetwork
+
+♻️ Red sustentable
+👉 t.me/redsustentable
+';
+					}
+					if ($chatId === -1001441291361)
+					{
+						$response = '';
+
+					}
+					if ($chatId === -100131021443) //FRACTALAS Y MANDALAS
+					{
+						$response = 'Bienvenida '.$newParticipant['first_name'].' '.$newParticipant['last_name'].' al movimiento 💞 
+Aquí damos y recibimos regalos 🎁 evolucionando en tríadas. 
+
+Si ya tienes tu triada te anotamos en la lista 🙋🏻‍♂️';
 					}
 					sendMessage($chatId, $response);
 					}
