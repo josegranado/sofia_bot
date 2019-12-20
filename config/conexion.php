@@ -1,8 +1,8 @@
 <?php
 	$serverName = "localhost";
-	$database = "id11448536_main";
-	$username = "id11448536_admin";
-	$password = "Zh8w47f97*";
+	$database = "boot";
+	$username = "adminboot";
+	$password = "FD6VDWYRJPeZxhE7";
 
 
 	$conex = new mysqli($serverName, $username, $password, $database);
